@@ -1,0 +1,38 @@
+Container ID,Time,Image,Detail Report,Summary Report,Total Cost
+1,10/22/2024 17:40,data\1\1a605a35-9062-11ef-913d-005056c00008.jpg,No damage found!,No damage found!,0
+2,10/22/2024 17:41,data\2\33952cba-9062-11ef-a8c3-005056c00008.jpg,"Damage Type: dent
+  Base Cost: $50
+  Confidence: 0.26
+  Severity: Dim
+  Adjusted Cost: $6.46
+  Penalty Applied: No
+-------------------------
+","Dent: 1 (cost: 6.46)
+Hole: 0 (cost: 0)
+Rust: 0 (cost: 0)
+",6.46
+3,10/22/2024 17:41,data\3\391ab12d-9062-11ef-aec4-005056c00008.jpg,"Damage Type: dent
+  Base Cost: $50
+  Confidence: 0.67
+  Severity: Moderate
+  Adjusted Cost: $40.4
+  Penalty Applied: No
+-------------------------
+Damage Type: hole
+  Base Cost: $100
+  Confidence: 0.43
+  Severity: Minor
+  Adjusted Cost: $43.08
+  Penalty Applied: No
+-------------------------
+Damage Type: dent
+  Base Cost: $50
+  Confidence: 0.29
+  Severity: Dim
+  Adjusted Cost: $6.86
+  Penalty Applied: Yes (4% reduction)
+-------------------------
+","Dent: 2 (cost: 47.26)
+Hole: 1 (cost: 43.08)
+Rust: 0 (cost: 0)
+",90.34
